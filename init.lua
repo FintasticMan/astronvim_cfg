@@ -50,6 +50,8 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+
+      "clangd",
     },
   },
 
@@ -80,5 +82,12 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+
+    vim.cmd([[
+      autocmd BufReadPost *
+        \ if line("'\"") >= 1 && line("'\"") <= line("$") && &ft !~# 'commit'
+        \ |   exe "normal! g`\""
+        \ | endif
+    ]])
   end,
 }

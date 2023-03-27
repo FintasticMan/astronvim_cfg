@@ -9,4 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  "tikhomirov/vim-glsl",
+  "editorconfig/editorconfig-vim",
 }
