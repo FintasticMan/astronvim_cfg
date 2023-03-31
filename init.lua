@@ -52,6 +52,7 @@ return {
       -- "pyright"
 
       "clangd",
+      "rust_analyzer",
     },
   },
 

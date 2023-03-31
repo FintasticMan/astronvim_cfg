@@ -12,8 +12,6 @@ return {
     shiftwidth = 4,
     expandtab = true,
     list = true,
-    foldmethod = "syntax",
-    foldlevel = 12,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
