@@ -12,6 +12,8 @@ return {
     shiftwidth = 4,
     expandtab = true,
     list = true,
+    smartcase = false,
+    ignorecase = false,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
