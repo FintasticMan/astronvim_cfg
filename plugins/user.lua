@@ -10,6 +10,8 @@ return {
   --   end,
   -- },
 
-  "tikhomirov/vim-glsl",
-  "editorconfig/editorconfig-vim",
+  {
+    "tikhomirov/vim-glsl",
+    ft = "glsl",
+  },
 }
