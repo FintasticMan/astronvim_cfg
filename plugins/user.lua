@@ -14,4 +14,10 @@ return {
     "tikhomirov/vim-glsl",
     ft = "glsl",
   },
+  {
+    "max397574/better-escape.nvim",
+    opts = {
+      mapping = {"jj"},
+    },
+  },
 }
